@@ -32,3 +32,51 @@ p {
 
 }
 
+h2 {
+    color: pink;
+}
+
+table, th, td {
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+form {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;  
+}
+
+header {
+    text-align: center;
+    color: black;
+    background-color: yellow;
+    font-size: 15px; 
+}
+
+section {
+    display: flex;
+    
+}
+
+article {
+    padding: 20px;
+    margin: 20px;
+}
+
+.img-container {
+    float: left;
+    width: 30%;
+    text-align: center;
+    font-size: smaller;
+    margin: .05em;
+    padding: 0.5em;
+}
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
