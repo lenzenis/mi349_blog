@@ -80,3 +80,9 @@ article {
     position: sticky;
     top: 0;
 }
+
+@media (max-width:400px) {
+    body {
+        background-color: pink;
+    }
+ }
